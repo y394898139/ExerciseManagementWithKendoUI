@@ -1,0 +1,21 @@
+﻿@model IEnumerable<AimyCompetition.Models.Exercise>
+
+@{
+    ViewBag.Title = "Exercise Management";
+    ViewBag.Message = null;
+}
+
+<h2>Exercise List</h2>
+<br>
+<body>
+    <div id="example">
+        <div>
+            Search By Exercise Name:
+            <input class="text text-primary" type=text id="SearchString" placeholder="Exercise Name..." />
+            <button id="btnSearch" class="btn btn-primary">Search</button>
+        </div>
+        <br><br>
+            <div id="grid">
+            </div>
+    </div>
+</body>
